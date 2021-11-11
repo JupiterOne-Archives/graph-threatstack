@@ -2,7 +2,7 @@ import fs from "fs-extra";
 
 const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 
-const baseDocsPath = `docs/jupiterone-io/index`;
+const baseDocsPath = `docs/jupiterone`;
 
 let docsExtension;
 if (fs.pathExistsSync(`${baseDocsPath}.md`)) {
