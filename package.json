@@ -1,6 +1,6 @@
 {
   "name": "@jupiterone/graph-threatstack",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "JupiterOne managed integration for Threat Stack.",
   "main": "dist/index.js",
   "repository": "https://github.com/jupiterone/graph-threatstack",
@@ -25,6 +25,7 @@
     "lint:md": "remark .",
     "lint:ts": "tslint --project .",
     "format": "yarn prettier --write '**/*.{ts,js,json,md}'",
+    "prepack": "yarn build",
     "test": "jest"
   },
   "dependencies": {
