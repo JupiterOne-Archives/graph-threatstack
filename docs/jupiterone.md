@@ -1,4 +1,4 @@
-# Threat Stack 
+# Threat Stack
 
 ## Threat Stack + JupiterOne Integration Benefits
 
